@@ -15,10 +15,6 @@ body {
     text-transform: uppercase;
 }
 
-.logo:hover a {
-    color: white;
-}
-
 .button {
     background: rgba(227, 184, 115, 1);
     border-radius: 2px;
@@ -27,10 +23,6 @@ body {
     padding: 13px 33px;
     color: white;
     text-transform: uppercase;;
-}
-
-.button:hover {
-    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .button:focus {
@@ -65,21 +57,13 @@ body {
     margin-right: 20px;
 }
 
-.header-navigation__item a:hover {
-    color:rgba(227, 184, 115, 1);
-}
-
 .header-navigation__item a:focus {
     color:rgba(227, 184, 115, 1);
 }
 
-.tel a {
+.tel p {
     color: rgba(227, 184, 115, 1);
     margin: 0 20px
-}
-
-.tel a:hover {
-    color: white;
 }
 
 .image1 {
@@ -117,8 +101,12 @@ body {
     color: white;
 }
 
-.button2 {
-    padding-left: 134px;  
+#btn_1 {
+    margin-left: 134px;
+}
+
+#btn_2 {
+    margin-left: 20px;
 }
 
 .image2 {
@@ -164,21 +152,14 @@ body {
     color: rgba(227, 184, 115, 1);
     margin: 0;
 }
-.parameters1 {
+.parameters1, .parameters2 {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.parameters2 {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.parameters1 h2{
+.parameters1 h2, .parameters2 h2{
     color: rgba(227, 184, 115, 1);
     font-family: Yeseva One;
     padding-left: 134px;
@@ -186,22 +167,7 @@ body {
     text-transform: uppercase;
 }
 
-.parameters1 p{
-    color: white;
-    font-family: Nunito Sans;
-    padding-left: 134px;
-    margin: 0;
-}
-
-.parameters2 h2{
-    color: rgba(227, 184, 115, 1);
-    font-family: Yeseva One;
-    padding-left: 134px;;
-    margin: 0 0 9px 0;
-    text-transform: uppercase;
-}
-
-.parameters2 p{
+.parameters1 p, .parameters2 p{
     color: white;
     font-family: Nunito Sans;
     padding-left: 134px;
@@ -275,12 +241,7 @@ label {
     justify-content: center;
     margin-top: 90px;
 }
-.name {
-    margin-right: 49px;
-    margin-top: 20px;
-    position: relative;
-}
-.phone {
+.name, .phone {
     margin-right: 49px;
     margin-top: 20px;
     position: relative;
@@ -289,10 +250,6 @@ label {
 #submit:focus {
     color: black;
     background-color: rgba(227, 184, 115, 1);
-    border-color: black;
-}
-
-#submit:hover {
     border-color: black;
 }
 
@@ -329,11 +286,7 @@ label {
     justify-content: center;
 }
 
-.bluewall {
-    margin-right: 30px;
-}
-
-.redcurtains {
+.bluewall, .redcurtains {
     margin-right: 30px;
 }
 
@@ -345,11 +298,7 @@ label {
     margin-top: -100px;
 }
 
-.whitebackground1 {
-    margin-right: 52px;
-}
-
-.whitebackground2 {
+.whitebackground1, .whitebackground2 {
     margin-right: 52px;
 }
 
@@ -369,11 +318,7 @@ label {
     letter-spacing: 0em;
 }
 
-.redecorating {
-    margin-right: 220px;
-}
-
-.overhaul {
+.redecorating, .overhaul{
     margin-right: 220px;
 }
 
@@ -386,4 +331,16 @@ h3 {
     font-family: Yeseva One;
     font-size: 18px;
     font-weight: bold;
+}
+
+#btn_3{
+    margin-left: 210px;
+}
+
+#btn_4  {
+    margin-left: 220px;
+}
+
+#btn_5  {
+    margin-left: 220px;
 }
